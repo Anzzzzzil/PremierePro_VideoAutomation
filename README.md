@@ -16,7 +16,7 @@ An automation system for Adobe Premiere Pro 2026 designed to simplify editing an
 
 | Track | Content |
 |---|---|
-| V2 | Dealer PSD Template (`ESSYEM.psd`) |
+| V2 | Dealer PSD Template (`Templete.psd`) |
 | V1 | Main Nested Video (`PLACE THE VIDEO`) |
 | A1 | Main Video Audio |
 | Ending | Fixed 4-second logo scene |
