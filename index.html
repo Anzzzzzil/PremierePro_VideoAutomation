@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Dealer Automation</h1>
+      <p class="intro">Align PLACE THE VIDEO and its matching audio to the available source end, trim the PSD before the logo scene, then apply Cross Dissolve to the PSD only.</p>
+      <label class="field">
+        <span>Logo scene duration (seconds)</span>
+        <input id="logoSeconds" type="number" min="0.1" step="0.1" value="5" />
+      </label>
+      <label class="field">
+        <span>Cross Dissolve duration (frames)</span>
+        <input id="transitionFrames" type="number" min="1" step="1" value="50" />
+      </label>
+      <button id="scan" class="secondary">Scan dealer sequences</button>
+      <button id="apply" disabled>Trim PSD + add Cross Dissolve</button>
+      <button id="queue" disabled>Queue dealers to Media Encoder</button>
+      <pre id="status" aria-live="polite">Open your working copy of the project, then scan.</pre>
+      <p class="note">Sequence and PSD names may differ. The panel aligns PLACE THE VIDEO and the audio clip beginning with it to their shared available source end, then trims the selected PSD by the logo scene duration. Shorter source media sets the shared end. Cross Dissolve is added to the PSD end only; clips inside nested sequences remain unchanged.</p>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>

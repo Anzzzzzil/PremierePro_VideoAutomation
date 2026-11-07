@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 16px;
+  color: #f3f3f3;
+  background: #232323;
+  font: 13px/1.45 "Adobe Clean", Arial, sans-serif;
+}
+main { display: flex; flex-direction: column; gap: 10px; }
+h1 { margin: 0; font-size: 18px; font-weight: 600; }
+.intro, .note { margin: 0; color: #c6c6c6; }
+.field { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+input { width: 72px; padding: 6px; color: #fff; background: #333; border: 1px solid #666; }
+button { padding: 9px 10px; color: #111; background: #78a9ff; border: 0; border-radius: 3px; font-weight: 600; }
+button.secondary { color: #f3f3f3; background: #444; }
+button:disabled { color: #aaa; background: #373737; }
+pre { min-height: 84px; margin: 0; padding: 9px; white-space: pre-wrap; overflow-wrap: anywhere; color: #e2e2e2; background: #181818; border: 1px solid #444; }
+.note { font-size: 11px; }
